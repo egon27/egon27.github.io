@@ -1,12 +1,200 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum</title>
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=News+Cycle&family=Open+Sans:wght@300;600&family=Oswald:wght@200;300;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 <body>
     
+    <nav class="navbar navbar-expand-lg navbar-ligth" style="background-color: #660066;">
+        <a class="navbar-brand" href="#">E</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#inicio">Sobre mi<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#experiencias">Experiencias</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#trabajos">Trabajos</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    
+
+    <header id="inicio" class="esteban-section">
+        <h1>
+            <span>YO SOY</span>
+            <hr id="hr_margin">
+            ESTEBAN
+        </h1>
+        
+    </header>
+
+    <section id="sobre-mi"> 
+        <div class="container">
+            <div class="titulo">
+                <p>Lorem ipsum dolor sit amet, consectetur elit. Donec mattis ante<br>
+                    nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.</p> 
+                <hr id="hr_margin">
+            </div>
+
+            <div class="row">
+                <div class="col-sm text-left"> 
+                    <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices
+                    justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi.
+                    Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in,
+                    finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis
+                    nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id
+                    interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+                </div> 
+                <div class="col-sm text-left"> 
+                    <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices
+                    justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi.
+                    Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in,
+                    finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis
+                    nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id
+                    interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p> 
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <section id="experiencias">
+
+        <div class="container">
+            
+                <div class="experiencia">
+                    <p>MI EXPERIENCIA</p>
+                    <hr id="hr_margin">
+                </div>
+
+                <div class="row">
+                    <div class="col-sm">
+                    
+                        <img src="assets/img/entel-logo.png" alt="entel-logo" id="img_entel">
+                        <p class="parrafo">Ingeniero de proyectos </p>
+                        <p>2010 - 2014</p>
+                    </div>
+                    <div class="col-sm">
+                        
+                        <img src="assets/img/scotiabank-logo.png" alt="scotiabank-logo" id="img_scotiabank">
+                        <p class="parrafo">Supervisor de Información <br> 2014 - 2022 </p>
+                    </div>
+            
+                </div>
+        </div>
+
+    </section>
+
+    <section id="trabajos">
+
+        <div class="container" style="background-color: #660066;">
+
+            <div class="trabajo">
+                <p>MIS ÚLTIMOS TRABAJOS</p>
+                <hr id="hr_margin">
+            </div>
+            
+                <div class="row row-cols-1 row-cols-md-3">
+                    <div class="col mb-4">
+                        <div class="card">
+                            <img src="assets/img/meet_coffee.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">DecoPlantas</h5>
+                                <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card">
+                            <img src="assets/img/iguana_page.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Iguana Page</h5>
+                                <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card">
+                            <img src="assets/img/suricata.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Cuppon</h5>
+                                <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,</p>
+
+                            </div>
+                        </div>
+                    </div>
+                   
+                  
+                   
+                </div>
+
+        </div>
+
+    </section>
+
+    <section id="contacto">
+
+    <div class="contacta">
+        <p id="newsletter">CONTACTO</p>
+        <hr id="hr_margin">
+    </div>
+        <p id="newsletter_second">¿Quieres conocer más de mi? </p>
+
+
+<a class="typeform-share button" href="https://egon27.typeform.com/to/R5EcSx"  data-mode="popup"   data-toggle="tooltip" data-placement="right" title="Contactame"
+    style="display:inline-block;text-decoration:none;background-color:#3F4143;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;"
+    target="_blank">¡Comenzar! </a>
+<script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm_share", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })() </script>
+
+
+    </section>
+
+
+    <footer >
+        <div class="row">
+            <div class="col-12 col-sm-6">
+                <p>ESTEBAN</p>
+            </div>
+            <div class="col-12 col-sm-6">
+                <ul class="redes-sociales">
+                    <li><a href="https://github.com"><i class="fab fa-github-square"></i></a></li>
+                    <li><a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a></li>
+                    <li><a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
