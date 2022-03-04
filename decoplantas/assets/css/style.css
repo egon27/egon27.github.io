@@ -1,0 +1,67 @@
+body {
+    text-align: center; 
+    color: #000f08; 
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+  
+}
+
+body * { 
+    margin: 0; 
+    border: 0; 
+    padding: 0;
+}
+
+
+.hero-section {
+    text-align: left;
+    background-image: url('/egon27.github.io/decoplantas/assets/img/plantas.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    text-shadow: 0.125em 0.25em 0.125em #707070;
+    padding: 6.25em 3.125em; 
+}
+
+section { 
+    margin-top: 0.5rem;
+}
+
+.centrado{
+    padding: 0px 0px 0px 50px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 3.75em;
+    margin-bottom: 0.25em;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 2.5em;
+    margin-bottom: 0.25em;
+}
+
+img{
+    
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    clear: both;
+    margin: 50px 50px 10px 50px;
+    
+}
+
+.centrado{
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+footer  {
+    margin: 4.50em 0.25em 0.5em 0.25em;
+    background-color: coral;
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+}
