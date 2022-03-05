@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body *{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+
+.bg-nav{
+    background-color:#28A745;
+}
+
+section{
+    margin: 1px 0;
+}
+
+.cards{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.card{
+    margin-top: 2rem;
+    border-color:#707070 ;
+}
+
+.card-text{
+    font-family: 'Roboto', sans-serif;
+    color: #212529;
+    font-size:20px ;
+    text-align: left;
+    opacity: 100%;
+}
+
+.card-name{
+    font-family: 'Roboto', sans-serif;
+    color: #707070;
+    text-align: left;
+}
+
+
+
+.contacto{
+    width: 100%;
+}
+
+
+.contacto, h3 {
+    background-color: #28A745;
+    color: white;
+}
+h3 {
+    text-align: center;
+}
+button {
+    text-align: center;
+}
